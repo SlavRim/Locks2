@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33027.239
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locks2", "Locks2.csproj", "{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		1.3_DEBUG|Any CPU = 1.3_DEBUG|Any CPU
+		1.3|Any CPU = 1.3|Any CPU
+		1.4_DEBUG|Any CPU = 1.4_DEBUG|Any CPU
+		1.4|Any CPU = 1.4|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}.1.3_DEBUG|Any CPU.ActiveCfg = 1.3_DEBUG|Any CPU
+		{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}.1.3_DEBUG|Any CPU.Build.0 = 1.3_DEBUG|Any CPU
+		{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}.1.3|Any CPU.ActiveCfg = 1.3|Any CPU
+		{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}.1.3|Any CPU.Build.0 = 1.3|Any CPU
+		{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}.1.4_DEBUG|Any CPU.ActiveCfg = 1.4_DEBUG|Any CPU
+		{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}.1.4_DEBUG|Any CPU.Build.0 = 1.4_DEBUG|Any CPU
+		{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}.1.4|Any CPU.ActiveCfg = 1.4|Any CPU
+		{DC2D71F5-FCFD-4BC6-B94B-9036A2DC0629}.1.4|Any CPU.Build.0 = 1.4|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48FBBDF3-E639-4142-AA45-0E16C88A7CD0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <lockTab>Access</lockTab>
+    <locks2Tab>Lock config</locks2Tab>
+    <ConfigRuleAnimals>Animals filter</ConfigRuleAnimals>
+    <ConfigRuleApparel>Apparel filter</ConfigRuleApparel>
+    <ConfigRuleColonists>Colonist filter</ConfigRuleColonists>
+    <ConfigRuleGameCondition>Game condition filter</ConfigRuleGameCondition>
+    <ConfigRuleGuests>Guests filter</ConfigRuleGuests>
+    <ConfigRuleIgnorDrafted>Drafted pawns filter</ConfigRuleIgnorDrafted>
+    <ConfigRuleInverseColonists>Colonist inverted filter</ConfigRuleInverseColonists>
+    <ConfigRulePrisoners>Prisoners filter</ConfigRulePrisoners>
+    <ConfigRuleRace>Race filter</ConfigRuleRace>
+    <ConfigRuleBedRoom>BedRoom filter</ConfigRuleBedRoom>
+    <Locks2DoorSettings>Door Settings</Locks2DoorSettings>
+    <Locks2Or>- OR -</Locks2Or>
+    <Locks2Close>Close</Locks2Close>
+    <Locks2OrTooltip>One of these rules must apply for a pawn to pass throught</Locks2OrTooltip>
+    <Locks2Animals>Allow Animals</Locks2Animals>
+    <Locks2ApparelFilter>Allow colonist and guests wearing</Locks2ApparelFilter>
+    <Locks2ApparelFilterBody>Pawns must wear:</Locks2ApparelFilterBody>
+    <Locks2BedRoomFilter>Allow bedroom owners only</Locks2BedRoomFilter>
+    <Locks2BedRoomFilterHint>Will allow everyone in as long as there is unassigned beds in the room</Locks2BedRoomFilterHint>
+    <Locks2ColonistsFilter>Allow all colonist except</Locks2ColonistsFilter>
+    <Locks2ColonistsFilterBlacklist>Blacklisted colonists:</Locks2ColonistsFilterBlacklist>
+    <Locks2GameConditionFilter>Allow all if game condition is not active</Locks2GameConditionFilter>
+    <Locks2DenyIf>Deny if:</Locks2DenyIf>
+    <Locks2GuestsFilter>Allow guests and allies</Locks2GuestsFilter>
+    <Locks2DraftedPawns>Allow drafted colonists</Locks2DraftedPawns>
+    <Locks2ColonistInvertedFilter>Only allow whitelisted colonists</Locks2ColonistInvertedFilter>
+    <Locks2ColonistInvertedFilterWhitelist>whitelisted colonists:</Locks2ColonistInvertedFilterWhitelist>
+    <Locks2PrisonersFilter>Allow prisoners</Locks2PrisonersFilter>
+    <Locks2RaceFilter>Allow pawns by race</Locks2RaceFilter>
+    <Locks2RaceFilterWhitelist>Allowed races:</Locks2RaceFilterWhitelist>
+    <Locks2SettingsPerformance>Preformance settings:</Locks2SettingsPerformance>
+    <Locks2SettingsCache>Cache timeout after</Locks2SettingsCache>
+    <Locks2SettingsCacheTooltip>Lower values will result in a bigger performance impact but a more responsive locking system. It is recommended leave this at the default value of 1800 ticks</Locks2SettingsCacheTooltip>
+    <Locks2SettingsAccessTab>Access tab size and look:</Locks2SettingsAccessTab>
+    <Locks2SettingsAccessTabX>Access tab x size is</Locks2SettingsAccessTabX>
+    <Locks2SettingsAccessTabY>Access tab y size is</Locks2SettingsAccessTabY>
+    <Locks2SettingsDefaults>Defaults:</Locks2SettingsDefaults>
+    <Locks2SettingsDefaultsAre>Default rules are</Locks2SettingsDefaultsAre>
+    <Locks2SettingsOthers>Other settings:</Locks2SettingsOthers>
+    <Locks2SettingReset>Reset</Locks2SettingReset>
+    <Locks2SettingsEnableDebugging>Enable debugging</Locks2SettingsEnableDebugging>
+    <Locks2SettingsDebuggingTooltip>Enable debugging for advance users</Locks2SettingsDebuggingTooltip>
+    <Locks2SettingsDebuggingWarning>WARNING THIS IS FOR MODDERS ONLY!</Locks2SettingsDebuggingWarning>
+    <Locks2Confirm>Are you sure?</Locks2Confirm>
+    <Locks2ConfirmYes>Yes</Locks2ConfirmYes>
+    <Locks2ConfirmNo>No</Locks2ConfirmNo>
+    <Locks2AnimalsGenderFilter>Allow only</Locks2AnimalsGenderFilter>
+    <Locks2AnimalsGenderMale>Males</Locks2AnimalsGenderMale>
+    <Locks2AnimalsGenderFemale>Females</Locks2AnimalsGenderFemale>
+    <Locks2AnimalsAgeFilter>Allow animals under the age of</Locks2AnimalsAgeFilter>    
+</LanguageData>

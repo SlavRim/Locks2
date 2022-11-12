@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Fields>
+    <Field Name="lockComp" FieldType="Locks2.Core.LockComp" TargetType="RimWorld.Building_Door"/>
+    <Field Name="lockSignature" FieldType="System.Int32" TargetType="Verse.Pawn"/>
+</Fields>
