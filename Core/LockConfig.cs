@@ -82,6 +82,9 @@ namespace Locks2.Core
                 rules.Add(new ConfigRuleColonists());
                 rules.Add(new ConfigRuleGuests());
                 rules.Add(new ConfigRuleIgnorDrafted());
+#if v1_4
+                rules.Add(new ConfigRuleMechs());
+#endif
             }
         }
 

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<lockTab>Доступ</lockTab>
+	<locks2Tab>Конфигурация замков</locks2Tab>
+	<ConfigRuleAnimals>Фильтр животных</ConfigRuleAnimals>
+	<ConfigRuleApparel>Фильтр одежды</ConfigRuleApparel>
+	<ConfigRuleColonists>Фильтр персонажей</ConfigRuleColonists>
+	<ConfigRuleGameCondition>Фильтр условий игры</ConfigRuleGameCondition>
+	<ConfigRuleGuests>Фильтр гостей</ConfigRuleGuests>
+	<ConfigRuleIgnorDrafted>Фильтр выбранных персонажей</ConfigRuleIgnorDrafted>
+	<ConfigRuleInverseColonists>Инвертированный фильтр персонажей</ConfigRuleInverseColonists>
+	<ConfigRulePrisoners>Фильтр заключенных</ConfigRulePrisoners>
+	<ConfigRuleRace>Фильтр расы</ConfigRuleRace>
+	<ConfigRuleMechs>Фильтр мехов</ConfigRuleMechs>
+	<ConfigRuleBedRoom>Фильтр спален</ConfigRuleBedRoom>
+	<Locks2DoorSettings>Настройки двери</Locks2DoorSettings>
+	<Locks2Or>- ИЛИ -</Locks2Or>
+	<Locks2Close>Закрыть</Locks2Close>
+	<Locks2OrTooltip>Одно из этих правил должно применяться для того чтобы персонаж прошел</Locks2OrTooltip>
+	<Locks2Animals>Разрешить животных</Locks2Animals>
+	<Locks2ApparelFilter>Разрешить персонажам и гостям носящим на себе</Locks2ApparelFilter>
+	<Locks2ApparelFilterBody>Персонажи должны носить:</Locks2ApparelFilterBody>
+	<Locks2BedRoomFilter>Разрешить только владельцам спальни</Locks2BedRoomFilter>
+	<Locks2BedRoomFilterHint>Могут пройти все, пока в комнате есть незанятые кровати</Locks2BedRoomFilterHint>
+	<Locks2ColonistsFilter>Разрешить всем колонистам, кроме</Locks2ColonistsFilter>
+	<Locks2ColonistsFilterBlacklist>Черный список персонажей:</Locks2ColonistsFilterBlacklist>
+	<Locks2GameConditionFilter>Разрешить для всех, если условие игры неактивно</Locks2GameConditionFilter>
+	<Locks2DenyIf>Запретить, если:</Locks2DenyIf>
+	<Locks2MechsFilter>Разрешить для мехов</Locks2MechsFilter>
+	<Locks2GuestsFilter>Разрешить для гостей и союзников</Locks2GuestsFilter>
+	<Locks2DraftedPawns>Разрешить для выбранных колонистов</Locks2DraftedPawns>
+	<Locks2ColonistInvertedFilter>Разрешить только колонистов из белого списка</Locks2ColonistInvertedFilter>
+	<Locks2ColonistInvertedFilterWhitelist>внесенные в белый список колонисты:</Locks2ColonistInvertedFilterWhitelist>
+	<Locks2PrisonersFilter>Разрешить для заключенных</Locks2PrisonersFilter>
+	<Locks2RaceFilter>Разрешить персонажам по их расе</Locks2RaceFilter>
+	<Locks2RaceFilterWhitelist>Разрешенные расы:</Locks2RaceFilterWhitelist>
+	<Locks2SettingsPerformance>Настройки производительности:</Locks2SettingsPerformance>
+	<Locks2SettingsCache>Тайм-аут кеширования после</Locks2SettingsCache>
+	<Locks2SettingsCacheTooltip>Более низкие значения приведут к большему влиянию на производительность, но более отзывчивой системе блокировки. Рекомендуется оставить значение по умолчанию, то есть 1800 тиков</Locks2SettingsCacheTooltip>
+	<Locks2SettingsAccessTab>Размер и вид вкладки доступа:</Locks2SettingsAccessTab>
+	<Locks2SettingsAccessTabX>Размер вкладки доступа по горизонтали</Locks2SettingsAccessTabX>
+	<Locks2SettingsAccessTabY>Размер вкладки доступа по вертикали</Locks2SettingsAccessTabY>
+	<Locks2SettingsDefaults>По умолчанию:</Locks2SettingsDefaults>
+	<Locks2SettingsDefaultsAre>Правила по умолчанию</Locks2SettingsDefaultsAre>
+	<Locks2SettingsOthers>Другие настройки:</Locks2SettingsOthers>
+	<Locks2SettingReset>Сбросить</Locks2SettingReset>
+	<Locks2SettingsEnableDebugging>Включить отладку</Locks2SettingsEnableDebugging>
+	<Locks2SettingsDebuggingTooltip>Включить отладку для опытных пользователей</Locks2SettingsDebuggingTooltip>
+	<Locks2SettingsDebuggingWarning>ВНИМАНИЕ, ТОЛЬКО ДЛЯ МОДДЕРОВ!</Locks2SettingsDebuggingWarning>
+	<Locks2Confirm>Уверены ли вы?</Locks2Confirm>
+	<Locks2ConfirmYes>Да</Locks2ConfirmYes>
+	<Locks2ConfirmNo>Нет</Locks2ConfirmNo>
+	<Locks2AnimalsGenderFilter>Разрешить только</Locks2AnimalsGenderFilter>
+	<Locks2AnimalsGenderMale>Мужчинам</Locks2AnimalsGenderMale>
+	<Locks2AnimalsGenderFemale>Женщинам</Locks2AnimalsGenderFemale>
+	<Locks2AnimalsAgeFilter>Разрешить животным в возрасте до</Locks2AnimalsAgeFilter>
+
+</LanguageData>
