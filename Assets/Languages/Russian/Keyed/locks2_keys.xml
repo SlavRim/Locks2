@@ -54,5 +54,6 @@
 	<Locks2AnimalsGenderMale>Мужчинам</Locks2AnimalsGenderMale>
 	<Locks2AnimalsGenderFemale>Женщинам</Locks2AnimalsGenderFemale>
 	<Locks2AnimalsAgeFilter>Разрешить животным в возрасте до</Locks2AnimalsAgeFilter>
+	<Locks2AnimalsDisallowPen>Запретить животным в загоне</Locks2AnimalsDisallowPen>
 
 </LanguageData>

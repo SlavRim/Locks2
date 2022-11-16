@@ -54,4 +54,6 @@
 	<Locks2AnimalsGenderMale>Males</Locks2AnimalsGenderMale>
 	<Locks2AnimalsGenderFemale>Females</Locks2AnimalsGenderFemale>
 	<Locks2AnimalsAgeFilter>Allow animals under the age of</Locks2AnimalsAgeFilter>
+	<Locks2AnimalsDisallowPen>Disallow pen animals</Locks2AnimalsDisallowPen>
+
 </LanguageData>

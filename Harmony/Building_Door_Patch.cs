@@ -14,18 +14,15 @@ namespace Locks2.Harmony
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static bool Prefix(Building_Door __instance, Pawn p, ref bool __result)
         {
-            if (__instance.Faction == null)
+            if (__instance.Faction is null)
             {
                 __result = true;
                 return false;
             }
-            if (!(__instance.Map?.IsPlayerHome ?? false) || p == null || (p.roping?.IsRopedByPawn ?? false)) return true;
+            if (p is null || p.roping is { IsRoped: true }) return true;
             var config = Finder.currentConfig = __instance.GetConfig();
-            if (config == null) return true;
-            if (config.Allows(p))
-                __result = true;
-            else
-                __result = false;
+            if (config is null) return true;
+            __result = config.Allows(p);
             return false;
         }
     }

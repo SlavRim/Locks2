@@ -63,8 +63,10 @@ namespace Locks2.Core
         private bool AllowsInternal(Pawn pawn)
         {
             foreach (var rule in rules)
-                if (rule.Allows(pawn))
-                    return true;
+            {
+                var result = rule.Allows(pawn);
+                if (result) return true;
+            }
             return false;
         }
 
@@ -92,7 +94,7 @@ namespace Locks2.Core
         {
             public abstract float Height { get; }
             public abstract void ExposeData();
-            public abstract bool Allows(Pawn pawn);
+            public virtual bool Allows(Pawn pawn) => false;
 
             public abstract void DoContent(IEnumerable<Pawn> pawns, Rect rect, Action notifySelectionBegan,
                 Action notifySelectionEnded);
