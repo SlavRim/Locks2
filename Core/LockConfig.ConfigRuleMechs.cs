@@ -10,7 +10,6 @@ namespace Locks2.Core
 {
     public partial class LockConfig
     {
-#if v1_4
         public class ConfigRuleMechs : IConfigRule
         {
             public bool enabled = true;
@@ -21,7 +20,10 @@ namespace Locks2.Core
             public override bool Allows(Pawn pawn)
             {
                 if (!enabled) return false;
-                return pawn.IsColonyMech;
+#if v1_4
+                if (pawn.IsColonyMech) return true;
+#endif
+                return pawn.RaceProps.IsMechanoid && pawn.Faction.IsPlayer;
             }
 
             public override IConfigRule Duplicate()
@@ -42,6 +44,5 @@ namespace Locks2.Core
                 Scribe_Values.Look(ref enabled, "enabled", true);
             }
         }
-#endif
     }
 }
