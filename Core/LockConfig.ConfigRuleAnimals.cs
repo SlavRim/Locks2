@@ -28,12 +28,11 @@ namespace Locks2.Core
                 if (!enabled) return false;
                 if (pawn is not { Faction.IsPlayer: true }) return false;
                 var isAnimal = pawn.RaceProps.Animal;
-                if (disallowPen && AnimalPenUtility.GetCurrentPenOf(pawn, true) is not null)
-                    return false;
                 if (isAnimal)
                 {
                     if (genderFilterEnabled && pawn.gender != allowedGender) return false;
                     if (ageFilterEnabled && pawn.ageTracker.AgeBiologicalYearsFloat > ageFilter) return false;
+                    if (disallowPen && AnimalPenUtility.GetCurrentPenOf(pawn, true) is not null) return false;
                     return true;
                 }
                 return false;
