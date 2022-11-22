@@ -19,6 +19,7 @@ namespace Locks2.Harmony
                 __result = true;
                 return false;
             }
+            if (!__instance.Faction.IsPlayer) return true;
             if (p is null || p.roping is { IsRoped: true }) return true;
             var config = Finder.currentConfig = __instance.GetConfig();
             if (config is null) return true;
