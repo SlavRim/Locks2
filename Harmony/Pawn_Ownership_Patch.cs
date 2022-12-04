@@ -9,7 +9,7 @@ namespace Locks2.Harmony
     {
         public static void Prefix(Pawn_Ownership __instance)
         {
-            Traverse.Create(__instance).Field<Pawn>("pawn").Value?.Map?.reachability?.ClearCache();
+            __instance.pawn?.Map?.reachability?.ClearCache();
             LockConfig.Notify_Dirty();
         }
     }

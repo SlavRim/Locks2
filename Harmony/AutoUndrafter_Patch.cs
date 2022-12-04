@@ -9,7 +9,7 @@ namespace Locks2.Harmony
     {
         public static void Postfix(AutoUndrafter __instance)
         {
-            Traverse.Create(__instance).Field<Pawn>("pawn").Value.Notify_Dirty();
+            __instance.pawn?.Notify_Dirty();
         }
     }
 }
