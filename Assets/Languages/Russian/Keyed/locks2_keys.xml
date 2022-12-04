@@ -5,6 +5,7 @@
 	<ConfigRuleAnimals>Фильтр животных</ConfigRuleAnimals>
 	<ConfigRuleApparel>Фильтр одежды</ConfigRuleApparel>
 	<ConfigRuleColonists>Фильтр персонажей</ConfigRuleColonists>
+	<ConfigRuleHediff>Фильтр здоровья</ConfigRuleHediff>
 	<ConfigRuleGameCondition>Фильтр условий игры</ConfigRuleGameCondition>
 	<ConfigRuleGuests>Фильтр гостей</ConfigRuleGuests>
 	<ConfigRuleIgnorDrafted>Фильтр выбранных персонажей</ConfigRuleIgnorDrafted>
@@ -24,6 +25,9 @@
 	<Locks2BedRoomFilterHint>Могут пройти все, пока в комнате есть незанятые кровати</Locks2BedRoomFilterHint>
 	<Locks2ColonistsFilter>Разрешить всем колонистам, кроме</Locks2ColonistsFilter>
 	<Locks2ColonistsFilterBlacklist>Черный список персонажей:</Locks2ColonistsFilterBlacklist>
+	<Locks2HediffsFilter>Разрешить с здоровьем</Locks2HediffsFilter>
+	<Locks2HediffsFilterAllow>Нужно иметь</Locks2HediffsFilterAllow>
+	<Locks2HediffsFilterList>Состояния:</Locks2HediffsFilterList>
 	<Locks2GameConditionFilter>Разрешить для всех, если условие игры неактивно</Locks2GameConditionFilter>
 	<Locks2DenyIf>Запретить, если:</Locks2DenyIf>
 	<Locks2MechsFilter>Разрешить для мехов</Locks2MechsFilter>

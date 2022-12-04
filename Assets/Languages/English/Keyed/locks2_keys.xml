@@ -5,6 +5,7 @@
 	<ConfigRuleAnimals>Animals filter</ConfigRuleAnimals>
 	<ConfigRuleApparel>Apparel filter</ConfigRuleApparel>
 	<ConfigRuleColonists>Colonist filter</ConfigRuleColonists>
+	<ConfigRuleHediff>Hediff filter</ConfigRuleHediff>
 	<ConfigRuleGameCondition>Game condition filter</ConfigRuleGameCondition>
 	<ConfigRuleGuests>Guests filter</ConfigRuleGuests>
 	<ConfigRuleIgnorDrafted>Drafted pawns filter</ConfigRuleIgnorDrafted>
@@ -24,6 +25,9 @@
 	<Locks2BedRoomFilterHint>Will allow everyone in as long as there is unassigned beds in the room</Locks2BedRoomFilterHint>
 	<Locks2ColonistsFilter>Allow all colonist except</Locks2ColonistsFilter>
 	<Locks2ColonistsFilterBlacklist>Blacklisted colonists:</Locks2ColonistsFilterBlacklist>
+	<Locks2HediffsFilter>Allow pawns with hediffs</Locks2HediffsFilter>
+	<Locks2HediffsFilterAllow>Should have</Locks2HediffsFilterAllow>
+	<Locks2HediffsFilterList>Hediffs:</Locks2HediffsFilterList>
 	<Locks2GameConditionFilter>Allow all if game condition is not active</Locks2GameConditionFilter>
 	<Locks2DenyIf>Deny if:</Locks2DenyIf>
 	<Locks2MechsFilter>Allow mechs</Locks2MechsFilter>

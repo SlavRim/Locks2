@@ -64,7 +64,9 @@ namespace Locks2.Core
         {
             foreach (var rule in rules)
             {
-                var result = rule.Allows(pawn);
+                var force = false;
+                var result = rule.Allows(pawn, ref force);
+                if (force) return result;
                 if (result) return true;
             }
             return false;
@@ -95,6 +97,7 @@ namespace Locks2.Core
             public abstract float Height { get; }
             public abstract void ExposeData();
             public virtual bool Allows(Pawn pawn) => false;
+            public virtual bool Allows(Pawn pawn, ref bool force) => Allows(pawn);
 
             public abstract void DoContent(IEnumerable<Pawn> pawns, Rect rect, Action notifySelectionBegan,
                 Action notifySelectionEnded);
