@@ -41,7 +41,7 @@ namespace Locks2.Core
         public override bool IsVisible => (SelThing as Building).GetConfig() != null && SelThing.Map.IsPlayerHome &&
                                           (SelThing.Faction?.IsPlayer ?? false);
 
-        protected override bool StillValid => base.StillValid;
+        public override bool StillValid => base.StillValid;
 
         public float PawnSectionHeight
         {
@@ -71,7 +71,7 @@ namespace Locks2.Core
             ResetRightPanel();
         }
 
-        protected override void CloseTab()
+        public override void CloseTab()
         {
             base.CloseTab();
             var map = SelThing.Map;
@@ -81,7 +81,7 @@ namespace Locks2.Core
             ResetRightPanel();
         }
 
-        protected override void UpdateSize()
+        public override void UpdateSize()
         {
             base.UpdateSize();
             size = new Vector2(Finder.settings.tabSizeX, Finder.settings.tabSizeY);
@@ -97,7 +97,7 @@ namespace Locks2.Core
             }
         }
 
-        protected override void FillTab()
+        public override void FillTab()
         {
             GameFont font = Text.Font;
             UpdateSize();
